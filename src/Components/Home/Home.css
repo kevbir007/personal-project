@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Finger+Paint');
+@import url('https://fonts.googleapis.com/css?family=Ribeye+Marrow');
+
+.Home {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home-body-container {
+    height: 100vh;
+    width: 62vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.Home-header {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;;
+}
+
+.Home-logo {
+    height: 100px;
+    font-size: 45px;
+    color: royalblue;
+    font-family: 'Ribeye Marrow', cursive;
+    text-align: center;
+}
+
+.Login-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.User-icon {
+    height: 15px;
+    width: 15px;
+    background-image: url('./../../Pictures/user-icon.png');
+    background-size: cover;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+
+.Home-login {
+    font-size: 14px;
+    font-weight: bolder;
+    margin-top: 30px;
+    color: royalblue;
+}
+
+.Home-pic-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Home-snack-left {
+    background-image: url('./../../Pictures/61Gx5HEFhfL._SX466_.jpg');
+    height: 350px;
+    width: 300px;
+    background-size: cover;
+    float: left;
+}
+
+.Slogan-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Slogan-1 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: royalblue;
+    /* width: 200px; */
+    margin-top: 50px;
+}
+
+.Slogan-2 {
+    font-size: 30px;
+    /* font-weight: bolder; */
+    color: royalblue;
+    font-family: 'Finger Paint', cursive;
+    border-bottom: dotted rgb(58, 218, 19);
+}
+
+.Slogan-3 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: royalblue;
+}
+
+.Home-button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.Get-started-button {
+    height: 45px;
+    width: 170px;
+    border-radius: 20px;
+    margin-top: 40px;
+    background-color: royalblue;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+}
+
+.Home-or {
+    font-size: 26px;
+    font-family: 'Finger Paint', cursive;
+    color: royalblue;
+    margin-top: 40px;
+}
+
+.Gift-button {
+    height: 45px;
+    width: 170px;
+    border-radius: 20px;
+    margin-top: 40px;
+    background-color: rgb(52, 196, 16);
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+}
+
+.Home-snack-right {
+    background-image: url('./../../Pictures/61HASW-WKiL.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    float: left;
+    margin-top: 40px;
+}
+
+.How-it-works-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.How-it-works {
+    font-size: 27px;
+    font-weight: bolder;
+    color: royalblue;
+    margin-top: 10px;
+}
+
+.How-it-works-steps-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.Home-step-pic-1 {
+    height: 150px;
+    width: 150px;
+    background-image: url('./../../Pictures/snacks.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.Home-step-pic-2 {
+    height: 150px;
+    width: 150px;
+    background-image: url('./../../Pictures/globe.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.Home-step-pic-3 {
+    height: 130px;
+    width: 130px;
+    background-image: url('./../../Pictures/7F88GAZJ.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.Home-steps-container {
+    display: flex;
+    width: 88%;
+    justify-content: space-around;
+}
+
+.Home-step {
+    font-size: 25px;
+    font-family: 'Finger Paint', cursive;
+    color: royalblue;
+}
+
+.Dotted-line {
+    font-size: 25px;
+    color: rgb(52, 196, 16);
+}
+
+.Step-titles-container {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    margin-top: 15px;
+}
+
+.Step-title {
+    font-size: 20px;
+    font-weight: bolder;
+    color: royalblue;
+    width: 150px;
+    margin-left: 50px;
+}
+
+.Step-title-2 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: royalblue;
+    width: 220px;
+    text-align: center;
+    margin-left: 350px;
+}
+
+.Step-title-3 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: royalblue;
+    width: 220px;
+    text-align: center;
+    margin-left: 320px;
+}
+
+.Step-info-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Step-info {
+    font-size: 15px;
+    color: gray;
+    width: 240px;
+    text-align: center;
+}
